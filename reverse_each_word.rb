@@ -4,5 +4,5 @@ def reverse_each_word(string)
   reversed=each_word.collect do |sentence|
     sentence.reverse!.join(" ")
   end
-  #reversed.join(" ")
+  reversed.join(" ")
 end
